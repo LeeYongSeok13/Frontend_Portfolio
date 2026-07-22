@@ -1,0 +1,19 @@
+/* 색상, 폰트, 간격 */
+:root {
+  /* Color */
+  --color-primary: #3b82f6;
+  --color-background: #0f172a;
+  --color-surface: #1e293b;
+  --color-text: #f8fafc;
+  --color-text-secondary: #94a3b8;
+
+  /* Font */
+  --font-family: "Pretendard", sans-serif;
+
+  /* Layout */
+  --max-width: 1200px;
+  --header-height: 80px;
+
+  /* Transition */
+  --transition: 0.3s ease;
+}

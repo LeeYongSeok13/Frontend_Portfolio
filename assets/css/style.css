@@ -1,0 +1,57 @@
+/* 각 Section의 상세 디자인 */
+
+/* ===========================
+   Header Style
+=========================== */
+
+/* Logo */
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  color: var(--color-text);
+
+  transition: var(--transition);
+}
+
+/* Navigation */
+
+.nav_menu a {
+  position: relative;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  color: var(--color-text);
+
+  transition: var(--transition);
+}
+
+/* Hover */
+
+.nav_menu a:hover {
+  color: var(--color-primary);
+}
+
+/* Underline */
+
+.nav_menu a::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -6px;
+
+  width: 0;
+  height: 2px;
+
+  background: var(--color-primary);
+
+  transition: var(--transition);
+}
+
+.nav_menu a:hover::after {
+  width: 100%;
+}
