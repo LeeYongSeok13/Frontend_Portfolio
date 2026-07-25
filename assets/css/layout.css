@@ -35,9 +35,40 @@
 
 #hero {
   min-height: 100vh;
+  padding-top: var(--header-height);
+
+  display: flex;
+  align-items: center;
+}
+
+/* ===========================
+   About Layout
+=========================== */
+
+#about {
+  min-height: 100vh;
 
   display: flex;
   align-items: center;
 
-  padding-top: var(--header-height);
+  background: var(--color-surface);
+}
+
+.about_content {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.about_bottom {
+  display: flex;
+  gap: 32px;
+}
+
+.about_values {
+  flex: 2;
+}
+
+.about_info {
+  flex: 1;
 }

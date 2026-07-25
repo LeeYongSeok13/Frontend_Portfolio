@@ -25,3 +25,23 @@ body {
 section {
   padding: 120px 0;
 }
+
+/* ===========================
+   Button
+=========================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  padding: 16px 30px;
+
+  border-radius: 999px;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  transition: var(--transition);
+}
