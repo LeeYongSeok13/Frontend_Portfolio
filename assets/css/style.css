@@ -15,6 +15,31 @@
   transition: var(--transition);
 }
 
+/* Header */
+#header {
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3 ease,
+    backdrop-filter 0.3 ease;
+}
+
+#header.scrolled {
+  background: rgba(255, 255, 255, 0.85);
+
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+
+  box-shadow: 0 6px 20px rgba(15, 23, 42, 0.8);
+}
+
+.nav_link.active {
+  color: var(--color-primary);
+}
+
+.nav_link.active::after {
+  width: 100%;
+}
+
 /* Navigation */
 
 .nav_menu a {
