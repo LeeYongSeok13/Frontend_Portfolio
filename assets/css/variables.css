@@ -36,6 +36,8 @@
 
   --shadow-button: 0 8px 20px rgba(37, 99, 235, 0.18);
   --shadow-button-hover: 0 14px 30px rgba(37, 99, 235, 0.25);
+  --shadow-card: 0 8px 20px rgba(15, 23, 42, 0.05);
+  --shadow-card-hover: 0 14px 28px rgba(37, 99, 235, 0.12);
 
   /* ===========================
      Font
