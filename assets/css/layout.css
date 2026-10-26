@@ -100,3 +100,23 @@
   display: flex;
   flex-direction: column;
 }
+
+/* ===========================
+   Skills Layout
+=========================== */
+#skills {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+
+  background: var(--color-surface);
+}
+
+
+/* ===========================
+   Projects Layout
+=========================== */
+#projects {
+  min-height: 100vh;
+}
