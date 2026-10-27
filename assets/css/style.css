@@ -273,3 +273,27 @@
 
   color: var(--color-text-secondary);
 }
+
+/* Skills */
+.skill_item {
+  padding: 24px;
+  border-radius: 16px;
+  transition: var(--transition);
+}
+
+.skill_item i {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.skill_item span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.skill_item:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-card-hover);
+}
